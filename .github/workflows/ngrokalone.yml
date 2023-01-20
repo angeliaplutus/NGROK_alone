@@ -2,7 +2,7 @@ name: 开启 SSH 支持
 on:
   watch:
     types: started
-    
+  workflow_dispatch: # Put here!!
 jobs:
   build:
     runs-on: ubuntu-latest
